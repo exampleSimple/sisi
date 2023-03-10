@@ -1,0 +1,60 @@
+@import './theme/dark.css';
+@import './theme/light.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.header{
+  height: 70px;
+}
+.button {
+  background-color: rgb(47, 139, 136);
+  color: var(--text-color);
+  width: 200px;
+  margin: 20px 0;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  right: 25px;
+  font-weight: 700;
+  border: 0;
+}
+.pokemonCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+}
+.showCount{
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  
+}
+.showCount select {
+  margin-left: 10px;
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: rgb(108, 160, 160);
+  color:var(--text-color);
+  font-weight: 700;
+  text-align: center;
+}
+.showCount option{
+  font-weight: 700;
+}

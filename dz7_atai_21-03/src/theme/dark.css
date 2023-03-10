@@ -1,0 +1,4 @@
+.app.dark{
+    --background-color: rgb(23, 23, 23);
+    --text-color: white;
+}

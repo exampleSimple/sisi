@@ -1,0 +1,17 @@
+.pogination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.pogination button{
+    margin: 0 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: 0;
+    font-weight: 700;
+    background-color: rgb(108, 160, 160);
+}
